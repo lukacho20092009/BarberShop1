@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BarberShop</title>
+  <link rel="icon" href="https://i.pinimg.com/736x/80/1f/94/801f94315ebf544ab3a569ba5dad1001.jpg" type="image/jpeg">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Fjalla+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="gallery.html">Gallery</a>
+      <a class="nav-link" href="services.html">Services</a>
+      <a class="nav-link" href="about.html">About Us</a>
+    </nav>
+    <div class="book"><a href="index.html">BarberShop</a></div>
+    <div class="burger">☰</div>
+  </header>
+<section class="services">
+  <h2>Our Services</h2>
+  <div class="service-list">
+    <div class="service">
+      <img src="imgs/classic-haircut.avif" alt="Haircut">
+      <h3>Classic Haircut</h3>
+      <p>Clean, sharp, and stylish haircut tailored to your look.</p>
+      <span class="price">30 GEL</span>
+    </div>
+
+    <div class="service">
+      <img src="imgs/beard-trim.webp" alt="Beard Trim">
+      <h3>Beard Trim</h3>
+      <p>Shape and maintain your beard for a professional finish.</p>
+      <span class="price">20 GEL</span>
+    </div>
+
+    <div class="service">
+      <img src="imgs/towel-shave.jfif" alt="Shave">
+      <h3>Hot Towel Shave</h3>
+      <p>Traditional shave experience with warm towels and precision.</p>
+      <span class="price">25 GEL</span>
+    </div>
+  </div>
+</section>
+
+<table class="price-table">
+
+
+    <tbody><tr class="price-table__row">
+
+        <td class="price-table__service">Beard Trim</td>
+        <td class="price-table__price">GEL 33</td>
+    </tr>
+
+    <tr class="price-table__row">
+        <td class="price-table__service">Haircut</td>
+        <td class="price-table__price">GEL 52</td>
+
+    </tr>
+
+    <tr class="price-table__row">
+        <td class="price-table__service">Hair Trim</td>
+        <td class="price-table__price">GEL 30</td>
+    </tr>
+    <tr class="price-table__row">
+        <td class="price-table__service">Clipper Haircut / Fade (various lenght)</td>
+        <td class="price-table__price">GEL 40</td>
+    </tr>
+    <tr class="price-table__row">
+        <td class="price-table__service">Beard and Haircut</td>
+        <td class="price-table__price">GEL 70</td>
+    </tr>
+    <tr class="price-table__row">
+        <td class="price-table__service">Children's haircut</td>
+        <td class="price-table__price">GEL 40</td>
+    </tr>
+    <tr class="price-table__row">
+        <td class="price-table__service">Hot Towel Shave</td>
+        <td class="price-table__price">GEL 45</td>
+    </tr>
+    <tr class="price-table__row">
+        <td class="price-table__service">Hair Camouflage</td>
+        <td class="price-table__price">GEL 40</td>
+    </tr>
+    <tr class="price-table__row">
+        <td class="price-table__service">Beard Camouflage</td>
+        <td class="price-table__price">GEL 30</td>
+    </tr>
+    <tr class="price-table__row">
+        <td class="price-table__service">Face Scrub</td>
+        <td class="price-table__price">GEL 20</td>
+    </tr>
+    <tr class="price-table__row">
+        <td class="price-table__service">Black Mask</td>
+        <td class="price-table__price">GEL 20</td>
+    </tr>
+     <tr class="price-table__row">
+        <td class="price-table__service">Wax</td>
+        <td class="price-table__price">GEL 5</td>
+    </tr>
+        <tr class="price-table__row">
+        <td class="price-table__service">Black Mask + Face Scrub</td>
+        <td class="price-table__price">GEL 35</td>
+    </tr>
+        <tr class="price-table__row">
+        <td class="price-table__service">Father + Son(from 5)</td>
+        <td class="price-table__price">GEL 80</td>
+    </tr>
+        <tr class="price-table__row">
+        <td class="price-table__service">Hair Trim + Beard Correction</td>
+        <td class="price-table__price">GEL 55</td>
+    </tr>
+    <tr class="price-table__row">
+        <td class="price-table__service">Fade + Beard Correction</td>
+        <td class="price-table__price">GEL 60</td>
+    </tr>
+</tbody></table>
+
+<section class="featured-services">
+  <div class="service-card">
+    <h3>Beard Trim</h3>
+    <p>Precision trimming for a sharp, clean look.</p>
+  </div>
+  <div class="service-card">
+    <h3>Haircut</h3>
+    <p>Classic or modern cuts tailored to your style.</p>
+  </div>
+</section>
+
+<section class="contact-section">
+  <h2>Contact & Book</h2>
+  <p>Call, WhatsApp, or fill out the form to book your haircut!</p>
+  <div class="contact-info">
+    <div><strong>Phone:</strong> <a href="tel:+995123456789">+995 123 456 789</a></div>
+    <div><strong>Email:</strong> <a href="mailto:barbershop@gmail.com">barbershop@gmail.com</a></div>
+    <div><strong>Address:</strong> 12 Rustaveli St, Tbilisi</div>
+  </div>
+  <form class="booking-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <input type="date" required>
+    <button type="submit">Book Now</button>
+  </form>
+</section>
+
+
+<td class="price-table__service">
+  <img src="imgs/main-img.jpg" alt="Beard Trim" class="service-icon">BarberShop
+</td>
+
+  <script src="script.js"></script>
+</body>
+</html>
